@@ -1,14 +1,13 @@
 package webapp.validator;
 
-import org.o7planning.sbshoppingcart.dao.ProductDAO;
-import org.o7planning.sbshoppingcart.entity.Product;
-import org.o7planning.sbshoppingcart.form.ProductForm;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;
- 
+ import webapp.dao.*;
+ import webapp.form.*;
+ import webapp.entity.*;
 @Component
 public class ProductFormValidator implements Validator {
  

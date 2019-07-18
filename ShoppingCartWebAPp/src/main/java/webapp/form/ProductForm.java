@@ -1,8 +1,7 @@
 package webapp.form;
 
-import org.o7planning.sbshoppingcart.entity.Product;
 import org.springframework.web.multipart.MultipartFile;
- 
+import webapp.entity.*; 
 public class ProductForm {
     private String code;
     private String name;

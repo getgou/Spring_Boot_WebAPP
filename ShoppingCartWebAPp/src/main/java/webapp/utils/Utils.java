@@ -2,8 +2,7 @@ package webapp.utils;
 
 import javax.servlet.http.HttpServletRequest;
 
-import org.o7planning.sbshoppingcart.model.CartInfo;
- 
+import webapp.model.*;
 public class Utils {
  
    // Products in the cart, stored in Session.

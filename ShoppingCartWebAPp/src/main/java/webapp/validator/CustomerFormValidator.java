@@ -1,7 +1,7 @@
 package webapp.validator;
 
 import org.apache.commons.validator.routines.EmailValidator;
-import org.o7planning.sbshoppingcart.form.CustomerForm;
+import webapp.form.*;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;

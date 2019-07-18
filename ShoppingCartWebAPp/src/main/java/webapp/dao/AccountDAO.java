@@ -2,7 +2,7 @@ package webapp.dao;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import org.o7planning.sbshoppingcart.entity.Account;
+import webapp.entity.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;

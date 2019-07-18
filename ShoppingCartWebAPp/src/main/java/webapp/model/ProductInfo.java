@@ -1,7 +1,6 @@
 package webapp.model;
 
-import org.o7planning.sbshoppingcart.entity.Product;
-
+import webapp.entity.*;
 public class ProductInfo {
     private String code;
     private String name;

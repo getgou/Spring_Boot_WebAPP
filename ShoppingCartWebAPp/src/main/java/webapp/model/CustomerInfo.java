@@ -1,7 +1,6 @@
 package webapp.model;
 
-import org.o7planning.sbshoppingcart.form.CustomerForm;
-
+import webapp.form.*;
 public class CustomerInfo {
  
     private String name;
